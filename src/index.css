@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face{
+        font-family: 'gdsherpa';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        
+        src: url('./assets/fonts/gdsherpa/gdsherpa.woff2') format('woff2'),
+        url('./assets/fonts/gdsherpa/gdsherpa.ttf') format('ttf')
+        
+    }
+    @font-face{
+        font-family: 'gd-sage';
+        font-display: swap;
+        src: url('./assets/fonts/gd-sage.woff2') format('woff2')
+    }
+    html{
+        font-family: gdsherpa, Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        position: relative;
+        
+    }
+
+    #app {
+      height: 100%;
+    }
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+}
