@@ -58,7 +58,9 @@ const MultiImage = () => {
           >
             <img
               loading="lazy"
-              src={"/media/images/" + data[itemSelected - 1]?.image || ""}
+              src={`/godaddy-clone/media/images/${
+                data[itemSelected - 1]?.image || ""
+              }`}
               className="w-full h-full object-cover"
             />
           </motion.picture>

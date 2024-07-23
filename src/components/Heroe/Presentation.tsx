@@ -13,7 +13,7 @@ const Presentation = () => {
 
   return (
     <section className="w-full grid grid-rows-[550px,_1fr] grid-cols-1 gap-betweeen-grids-sm xl:gap-betweeen-grids-md xl:grid-cols-4 xl:grid-rows-1">
-      <div className="w-full h-full bg-[url('/media/images/row-mrq-hp-portrait.webp')] xl:bg-[url('/media/images/row-mrq-hp-landscape.webp')] bg-no-repeat rounded-2xl bg-right-bottom xl:bg-center bg-cover p-5 xl:p-10 xl:col-span-3 xl:grid xl:grid-cols-[40%,_auto] xl:grid-rows-1">
+      <div className="w-full h-full bg-[url('/godaddy-clone/media/images/row-mrq-hp-portrait.webp')] xl:bg-[url('/godaddy-clone/media/images/row-mrq-hp-landscape.webp')] bg-no-repeat rounded-2xl bg-right-bottom xl:bg-center bg-cover p-5 xl:p-10 xl:col-span-3 xl:grid xl:grid-cols-[40%,_auto] xl:grid-rows-1">
         <div className="flex xl:justify-start xl:items-start justify-start items-center flex-col gap-y-2">
           <Para>Páginas Web + Marketing</Para>
           <Title>Crea tu sitio web.</Title>

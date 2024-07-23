@@ -26,7 +26,7 @@ export const menuItems: IMenuList[] = [
     id: 1,
     label: "Dominios",
     open: false,
-    img: "/media/images/img-meganav-domains-2.webp",
+    img: "/godaddy-clone/media/images/img-meganav-domains-2.webp",
     caption: "Compra el dominio que deseas",
     items: [
       {
@@ -99,7 +99,7 @@ export const menuItems: IMenuList[] = [
     label: "Sitios web y hosting",
     open: false,
     caption: "Vende en línea con hosting de comercio electrónico de WordPress",
-    img: "/media/images/img-meganav-ecommerce-hosting.webp",
+    img: "/godaddy-clone/media/images/img-meganav-ecommerce-hosting.webp",
     items: [
       {
         id: 1,
@@ -157,7 +157,7 @@ export const menuItems: IMenuList[] = [
     id: 4,
     label: "Seguridad",
     open: false,
-    img: "/media/images/img-meganav-web-security.webp",
+    img: "/godaddy-clone/media/images/img-meganav-web-security.webp",
     caption: "Todas las opciones de seguridad web",
     items: [
       {
@@ -199,7 +199,7 @@ export const menuItems: IMenuList[] = [
     id: 5,
     label: "Marketing",
     open: false,
-    img: "/media/images/Image-Grow-Desktop.webp",
+    img: "/godaddy-clone/media/images/Image-Grow-Desktop.webp",
     caption: "Obtén información para que tu empresa crezca",
     items: [
       {

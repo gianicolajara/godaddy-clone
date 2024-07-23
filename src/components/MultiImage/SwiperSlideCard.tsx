@@ -26,7 +26,7 @@ const SwiperSlideCard = ({ data }: Props) => {
           <div className="w-full h-full flex flex-col bg-mute/30 rounded-xl overflow-hidden">
             <div className="w-full h-[50%] flex-0">
               <img
-                src={"/media/images/" + item.image}
+                src={"/godaddy-clone/media/images/" + item.image}
                 className="w-full h-full object-cover"
               />
             </div>

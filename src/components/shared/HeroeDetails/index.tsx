@@ -35,8 +35,8 @@ const HeroeDetails = ({
     <section
       style={
         {
-          "--image-url-phone": `url(/media/images/${imgPhone})`,
-          "--image-url-desktop": `url(/media/images/${imgDesktop})`,
+          "--image-url-phone": `url(/godaddy-clone/media/images/${imgPhone})`,
+          "--image-url-desktop": `url(/godaddy-clone/media/images/${imgDesktop})`,
         } as CSSProperties
       }
       className={classnames}

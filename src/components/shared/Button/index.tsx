@@ -40,9 +40,9 @@ const Button = ({
     },
     //arrow
     {
-      "before:bg-[url('/media/svg/arrow-black.svg')]":
+      "before:bg-[url('/godaddy-clone/media/svg/arrow-black.svg')]":
         isArrow && background === "white",
-      "before:bg-[url('/media/svg/arrow-white.svg')]":
+      "before:bg-[url('/godaddy-clone/media/svg/arrow-white.svg')]":
         isArrow && background === "black",
     },
     //animations

@@ -6,7 +6,10 @@ const Content = () => {
   return (
     <div className="w-full h-full flex flex-col gap-y-8 ">
       <div className="">
-        <img src="/media/svg/gd-guides-logo.svg" className="w-52 h-full" />
+        <img
+          src="/godaddy-clone/media/svg/gd-guides-logo.svg"
+          className="w-52 h-full"
+        />
       </div>
       <div className="flex flex-col gap-y-5">
         <Title size="large">¿Por qué elegir a GoDaddy?</Title>

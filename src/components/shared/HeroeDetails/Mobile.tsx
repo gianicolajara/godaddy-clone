@@ -20,7 +20,7 @@ const Mobile = ({ children, markUp, fullScreen }: Props) => {
     <div className={classnames}>
       <div className="w-full h-full overflow-hidden ">
         <div className="w-full h-full bg-[image:var(--image-url-phone)] bg-no-repeat bg-center bg-cover p-7  flex">
-          <Mark markUp={markUp} />
+          <Mark markUp={markUp} fullScreen={fullScreen} />
         </div>
       </div>
       <div className="gap-y-4 flex flex-col p-5 bg-mute/20 ">{children}</div>

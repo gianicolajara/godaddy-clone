@@ -33,7 +33,10 @@ const Search = () => {
         </div>
         <div className="w-max xl:flex gap-x-4 items-center border border-transparent hover:rounded-xl hover:border hover:border-mute py-2 px-4 cursor-pointer transition-all group hidden ">
           <a href="#" className="flex gap-x-1">
-            <img src="/media/svg/img_icon_bug_tld-shop.svg" alt=".shop" />
+            <img
+              src="/godaddy-clone/media/svg/img_icon_bug_tld-shop.svg"
+              alt=".shop"
+            />
           </a>
           <div>
             <Para

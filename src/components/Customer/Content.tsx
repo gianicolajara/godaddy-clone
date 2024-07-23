@@ -29,7 +29,7 @@ const Content = () => {
         </div>
         <div className="w-full h-full hidden lg:flex">
           <img
-            src="/media/images/Raheim-Thompson-site.webp"
+            src="/godaddy-clone/media/images/Raheim-Thompson-site.webp"
             className="w-full h-full rounded-xl object-cover"
           />
         </div>
